@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+    <div class="container">
+        <h2 id="h2cname">Pie Chart</h2>
+        <div>
+          <canvas id="myChart"></canvas>
+        </div>
+      </div>
+      <form>
+        <label for="cname">Chart name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Type label names:</label><br>
+        <input type="text" id="arr0" name="arr0">
+        <input type="text" id="arr1" name="arr1">
+        <input type="text" id="arr2" name="arr2">
+        <!-- <input type="text" id="arr3" name="arr3">
+        <input type="text" id="arr4" name="arr4"> -->
+
+        <br>
+        <label for="input">Type input values:</label><br>
+        <input type="text" id="lname" name="lname">
+        <input type="text" id="lname" name="lname">
+        <input type="text" id="lname" name="lname">
+        <!-- <input type="text" id="lname" name="lname">
+        <input type="text" id="lname" name="lname"> -->
+
+      </form>
+      
+      <button id="generateChart">Generate</button>
+
+      <script src="../js/pie.js"></script>
+</body>
+</html>
